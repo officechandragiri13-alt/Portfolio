@@ -1,0 +1,8 @@
+# Force HTTPS
+http://bidariharihar.com.np/*  https://bidariharihar.com.np/:splat  301!
+
+# Remove www
+https://www.bidariharihar.com.np/*  https://bidariharihar.com.np/:splat  301!
+
+# SPA fallback — React Router support
+/*  /index.html  200

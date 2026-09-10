@@ -1,0 +1,15 @@
+/* TEAM */
+Developer: Harihar Bidari
+Role: Full-Stack Developer
+Location: Kathmandu, Nepal
+Email: hariharbidari@gmail.com
+GitHub: https://github.com/bidariharihar
+LinkedIn: https://linkedin.com/in/bidariharihar
+
+/* SITE */
+Last update: 2025-07-01
+Language: English
+Doctype: HTML5
+IDE: VS Code, WebStorm
+Standards: HTML5, CSS3, ES2024
+Components: React 19, Tailwind CSS 4, Vite 7

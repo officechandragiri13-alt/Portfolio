@@ -11,7 +11,6 @@ import {
 import { MdOutlineSettingsApplications } from "react-icons/md";
 import {
   SiC,
-  SiCanva,
   SiCplusplus,
   SiFigma,
   SiGit,
@@ -112,7 +111,7 @@ export const skillsData = [
       { name: "Vercel", icon: <SiVercel className="text-white" /> },
       { name: "Netlify", icon: <SiNetlify className="text-teal-400" /> },
       { name: "Figma", icon: <SiFigma className="text-pink-500" /> },
-      { name: "Canva", icon: <SiCanva className="text-[#00C4CC]" /> },
+
     ],
   },
 ];
@@ -248,8 +247,8 @@ export const portfolioItems = [
     password: "",
     image: imgportfolio,
     technology: ["React.js", "TailWind CSS", "JavaScript"],
-    github: "https://github.com/dharmendraram/MyPortfolio",
-    link: "http://dharmendraram.com.np/",
+    github: "https://github.com/bidariharihar/MyPortfolio",
+    link: "http://bidariharihar.com.np/",
     description:
       "A personal portfolio website, showcasing my interests, knowledge, experiences, skills and projects that I have done.In this digital era it has been mandatory to have digital exiatence. It becomes even more neccessary for the people in IT field. Personal portfolio website the resume of this digital world.",
   },
@@ -296,29 +295,24 @@ export const portfolioItems = [
 export const experiences = [
   {
     id: 1,
-    company: "National Incubation & Research Center",
+    company: "Government Of Nepal, Chandragiri Municipality Ward 15",
     logo: nirc,
-    title: "Full-Stack Developer",
+    title: "Wada Secretary",
     period: "Jul 2025 - Present",
     description:
-      "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      "Serving as Wada Secretary at Chandragiri Municipality Ward 15, responsible for administrative coordination, citizen services, documentation, and supporting local governance initiatives to ensure efficient and transparent ward-level operations.",
     skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React JS",
-      "TypeScript",
-      "Node JS",
-      "Tailwind CSS",
-      "MySQL",
-      "Python & Django",
-      "Java Grails",
+      "Public Administration",
+      "Documentation",
+      "Citizen Services",
+      "Local Governance",
+      "Coordination",
     ],
   },
   {
     id: 2,
     company: "National Incubation & Research Center",
-    logo: nirc, // replace with actual logo
+    logo: nirc,
     title: "Front-End Developer",
     period: "Oct 2023 - Jul 2024", //
     description:

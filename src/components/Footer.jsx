@@ -6,12 +6,12 @@ const Footer = () => {
   
   return (
     <div className={`border-t-1 ${
-      isDark ? 'border-white/40' : 'border-gray-900/40'
+      isDark ? 'border-blue-500/30' : 'border-blue-300/50'
     }`}>
         <footer className={`py-4 px-6 text-center text-sm ${
-          isDark ? 'text-white/50' : 'text-gray-600'
+          isDark ? 'text-blue-300/50' : 'text-blue-700/70'
         }`}>
-        &copy; {new Date().getFullYear()} Dharmendra Kumar Ram. All rights reserved.
+        &copy; {new Date().getFullYear()} Harihar Bidari. All rights reserved.
         </footer>
     </div>
   )

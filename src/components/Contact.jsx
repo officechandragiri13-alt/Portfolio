@@ -1,17 +1,16 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { PiPhone, PiMapPinFill } from "react-icons/pi";
 import { useTheme } from "../context/ThemeContext";
 
 const socials = [
-  { icon: <FaGithub />, href: "https://github.com/", label: "GitHub" },
-  { icon: <FaLinkedin />, href: "https://linkedin.com/", label: "LinkedIn" },
-  { icon: <FaFacebook />, href: "https://facebook.com/", label: "Facebook" },
-  { icon: <FaInstagram />, href: "https://instagram.com/", label: "Instagram" },
-  { icon: <BsWhatsapp />, href: "https://wa.me/9779819745073", label: "WhatsApp" },
+  { icon: <FaGithub />, href: "https://github.com/officechandragiri13-alt", label: "GitHub" },
+  { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/harihar-bidari-25a661132", label: "LinkedIn" },
+  { icon: <FaFacebook />, href: "https://www.facebook.com/share/1LbNwQoxo1/", label: "Facebook" },
+  { icon: <BsWhatsapp />, href: "https://wa.me/9779843220252", label: "WhatsApp" },
 ];
 
 const inputBase = "w-full px-4 py-2.5 rounded-xl border text-sm outline-none transition-all duration-200";
@@ -50,8 +49,8 @@ const Contact = () => {
 
   const inputCls = `${inputBase} ${
     isDark
-      ? "bg-white/5 border-white/10 text-white placeholder-neutral-500 focus:border-teal-400/60 focus:bg-white/8"
-      : "bg-white border-gray-200 text-gray-900 placeholder-gray-400 focus:border-teal-400 focus:shadow-sm"
+      ? "bg-blue-900/20 border-blue-500/20 text-blue-100 placeholder-blue-400/40 focus:border-teal-400/60"
+      : "bg-white border-blue-200 text-blue-900 placeholder-blue-400/60 focus:border-teal-400 focus:shadow-sm"
   }`;
 
   return (
@@ -67,7 +66,7 @@ const Contact = () => {
         <div className="text-center mb-12">
           <p className="text-teal-400 text-sm font-semibold tracking-widest uppercase mb-2">Let's Talk</p>
           <h2 className={`text-4xl font-bold ${
-            isDark ? "text-neutral-100" : "text-gray-800"
+            isDark ? "text-blue-100" : "text-blue-900"
           }`}>
             Get in <span className="text-outline">Touch</span>
           </h2>
@@ -77,14 +76,14 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-8 items-start">
           {/* Left — Info */}
           <div className={`rounded-2xl p-8 border h-full flex flex-col justify-between ${
-            isDark ? "bg-white/[0.03] border-white/10" : "bg-gray-50 border-gray-200"
+            isDark ? "bg-[#0f2340] border-blue-500/20" : "bg-blue-50 border-blue-200"
           }`}>
             <div>
               <h3 className={`text-xl font-bold mb-1 ${
-                isDark ? "text-white" : "text-gray-900"
+                isDark ? "text-blue-100" : "text-blue-900"
               }`}>Contact Information</h3>
               <p className={`text-sm mb-8 ${
-                isDark ? "text-neutral-500" : "text-gray-400"
+                isDark ? "text-blue-300/50" : "text-blue-700/60"
               }`}>Open to freelance, full-time & collaborations.</p>
 
               <div className="flex flex-col gap-6">
@@ -98,35 +97,35 @@ const Contact = () => {
                   {
                     icon: <MdEmail className="text-teal-400" />,
                     label: "Email",
-                    value: "dharmendraram7852@gmail.com",
-                    href: "mailto:dharmendraram7852@gmail.com",
+                    value: "office.chandragiri13@gmail.com",
+                    href: "mailto:office.chandragiri13@gmail.com",
                   },
                   {
                     icon: <PiPhone className="text-teal-400" />,
                     label: "Phone",
-                    value: "+977-9819745073",
-                    href: "tel:+9779819745073",
+                    value: "+977-9843220252",
+                    href: "tel:+9779843220252",
                   },
                 ].map(({ icon, label, value, href }) => (
                   <div key={label} className="flex items-center gap-4 group">
                     <div className={`w-10 h-10 flex items-center justify-center rounded-xl border shrink-0 text-base transition-colors ${
                       isDark
-                        ? "bg-white/5 border-white/10 group-hover:border-teal-400/40"
-                        : "bg-white border-gray-200 group-hover:border-teal-300"
+                        ? "bg-blue-900/30 border-blue-500/20 group-hover:border-teal-400/40"
+                        : "bg-blue-50 border-blue-200 group-hover:border-teal-300"
                     }`}>
                       {icon}
                     </div>
                     <div>
                       <p className={`text-xs font-medium uppercase tracking-wider ${
-                        isDark ? "text-neutral-500" : "text-gray-400"
+                        isDark ? "text-blue-300/50" : "text-blue-600/60"
                       }`}>{label}</p>
                       {href ? (
                         <a href={href} className={`text-sm font-medium hover:text-teal-400 transition-colors ${
-                          isDark ? "text-neutral-200" : "text-gray-700"
+                          isDark ? "text-blue-100" : "text-blue-900"
                         }`}>{value}</a>
                       ) : (
                         <p className={`text-sm font-medium ${
-                          isDark ? "text-neutral-200" : "text-gray-700"
+                          isDark ? "text-blue-100" : "text-blue-900"
                         }`}>{value}</p>
                       )}
                     </div>
@@ -138,7 +137,7 @@ const Contact = () => {
             {/* Socials */}
             <div className="mt-10">
               <p className={`text-xs uppercase tracking-widest mb-3 ${
-                isDark ? "text-neutral-500" : "text-gray-400"
+                isDark ? "text-blue-300/50" : "text-blue-600/60"
               }`}>Find me on</p>
               <div className="flex gap-3">
                 {socials.map(({ icon, href, label }) => (
@@ -150,8 +149,8 @@ const Contact = () => {
                     aria-label={label}
                     className={`w-9 h-9 flex items-center justify-center rounded-xl border text-sm transition-all hover:text-teal-400 hover:border-teal-400/50 hover:scale-110 ${
                       isDark
-                        ? "bg-white/5 border-white/10 text-neutral-400"
-                        : "bg-white border-gray-200 text-gray-500"
+                        ? "bg-blue-900/30 border-blue-500/20 text-blue-300"
+                        : "bg-blue-50 border-blue-200 text-blue-600"
                     }`}
                   >
                     {icon}
@@ -163,13 +162,13 @@ const Contact = () => {
 
           {/* Right — Form */}
           <div className={`rounded-2xl p-8 border ${
-            isDark ? "bg-white/[0.03] border-white/10" : "bg-gray-50 border-gray-200"
+            isDark ? "bg-[#0f2340] border-blue-500/20" : "bg-blue-50 border-blue-200"
           }`}>
             <h3 className={`text-xl font-bold mb-1 ${
-              isDark ? "text-white" : "text-gray-900"
+              isDark ? "text-blue-100" : "text-blue-900"
             }`}>Hire <span className="text-outline">Me</span></h3>
             <p className={`text-sm mb-6 ${
-              isDark ? "text-neutral-500" : "text-gray-400"
+              isDark ? "text-blue-300/50" : "text-blue-700/60"
             }`}>Tell me about your project and I'll get back to you.</p>
 
             {submitted && (

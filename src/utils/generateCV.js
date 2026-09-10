@@ -78,7 +78,7 @@ export const downloadCV = () => {
   setDark(doc);
   doc.setFont("helvetica", "bold");
   doc.setFontSize(21);
-  doc.text("Dharmendra Kumar Ram", W / 2, 14, { align: "center" });
+  doc.text("Harihar Bidari", W / 2, 14, { align: "center" });
 
   setAccent(doc);
   doc.setFont("helvetica", "bold");
@@ -89,10 +89,10 @@ export const downloadCV = () => {
   doc.setFont("helvetica", "normal");
   doc.setFontSize(7.5);
   const headerParts = [
-    { text: "Kathmandu, Nepal | dharmendraram7852@gmail.com | +977-9819745073 | ", url: null },
-    { text: "dharmendraram.com.np", url: "https://dharmendraram.com.np" },
+    { text: "Kathmandu, Nepal | hariharbidari@gmail.com | +977-9819745073 | ", url: null },
+    { text: "bidariharihar.com.np", url: "https://bidariharihar.com.np" },
     { text: " | ", url: null },
-    { text: "linkedin.com/in/dharmendraram", url: "https://linkedin.com/in/dharmendraram/" },
+    { text: "linkedin.com/in/bidariharihar", url: "https://linkedin.com/in/bidariharihar/" },
   ];
   const fullHeader = headerParts.map(p => p.text).join("");
   const headerX = W / 2 - doc.getTextWidth(fullHeader) / 2;
@@ -403,5 +403,5 @@ export const downloadCV = () => {
     my += 4.5;
   }
 
-  doc.save("Dharmendra_Kumar_Ram_CV.pdf");
+  doc.save("Harihar_Bidari_CV.pdf");
 };

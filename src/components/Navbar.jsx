@@ -50,11 +50,11 @@ const Navbar = () => {
              lg:w-1/4 md:w-1/2 sm:w-1/2 w-10/12 
              rounded-full flex justify-center shadow-xl transition-all ${
                isDark 
-                 ? 'bg-white/10 border border-white/20' 
-                 : 'bg-gray-900/10 border border-gray-900/20'
+                 ? 'bg-[#0d1b2e]/90 border border-blue-500/30' 
+                 : 'bg-blue-100/90 border border-blue-300/50'
              }`}>
       <ul className={`w-full flex justify-around items-center ${
-        isDark ? 'text-white' : 'text-gray-900'
+        isDark ? 'text-blue-100' : 'text-blue-900'
       }`}>
         {navItems.map((item, index) => (
           <li
@@ -64,10 +64,10 @@ const Navbar = () => {
             <button onClick={() => handleClick(item.id)}
               className={`flex items-center justify-center cursor-pointer p-3 h-10 w-10 rounded-full transition-all duration-300 ${
                 isActive === item.id
-                  ? "bg-teal-500/30 text-teal-600"
+                  ? "bg-blue-500/30 text-teal-400"
                   : isDark 
-                    ? "bg-white/10 hover:bg-white/30" 
-                    : "bg-gray-900/10 hover:bg-gray-900/30"
+                    ? "bg-blue-900/30 hover:bg-blue-700/40" 
+                    : "bg-blue-200/40 hover:bg-blue-300/60"
               }`} title={item.title}
             >
               {item.icon}

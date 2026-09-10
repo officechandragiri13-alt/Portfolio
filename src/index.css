@@ -4,10 +4,13 @@
 @import "tailwindcss";
 
 :root {
-  --bg-primary: #202020;
-  --bg-secondary: #ffffff;
-  --text-primary: #ffffff;
-  --text-secondary: #1f2937;
+  --bg-primary: #0d1b2e;
+  --bg-secondary: #dbeafe;
+  --text-primary: #e2eaf4;
+  --text-secondary: #1e3a5f;
+  --blue-500: #3b82f6;
+  --blue-600: #2563eb;
+  --blue-700: #1d4ed8;
 }
 
 * {
@@ -24,25 +27,25 @@ a {
 }
 
 .text-outline {
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 1px #3b82f6;
     color: transparent;
 }
 
 /* Light theme text outline */
 .light .text-outline {
-    -webkit-text-stroke: 1px #1f2937;
+    -webkit-text-stroke: 1px #3b82f6;
     color: transparent;
 }
 
 /* Theme-specific body classes */
 body.dark {
-    background-color: var(--bg-primary);
-    color: var(--text-primary);
+    background-color: #0d1b2e;
+    color: #e2eaf4;
 }
 
 body.light {
-    background-color: var(--bg-secondary);
-    color: var(--text-secondary);
+    background-color: #dbeafe;
+    color: #1e3a5f;
 }
 
 .border-line {
@@ -51,7 +54,7 @@ body.light {
     top: 0;
     width: 1px;
     height: 100%;
-    background-color: rgba(102, 102, 102, 0.3);
+    background-color: rgba(59, 130, 246, 0.3);
     z-index: -1;
 }
 
@@ -61,7 +64,7 @@ body.light {
     position: absolute;
     width: 1px;
     height: 100%;
-    background-color: rgba(102, 102, 102, 0.3);
+    background-color: rgba(59, 130, 246, 0.3);
     top: 0;
 }
 .page-wrapper::before {

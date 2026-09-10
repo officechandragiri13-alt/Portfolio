@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import GridLine from "../utils/GridLine";
 import { useTheme } from "../context/ThemeContext";
 
-import user from "../assets/about/pic2.png";
+import user from "../assets/hero/Harihar.jpg";
 
 const About = () => {
   const { isDark } = useTheme();
@@ -11,7 +11,7 @@ const About = () => {
     <section
       id="about"
       className={`relative w-full border border-[rgba(102,102,102,0.3)] flex justify-center items-center py-5 overflow-hidden ${
-        isDark ? 'text-white' : 'text-gray-900'
+        isDark ? 'text-[#e2eaf4]' : 'text-[#1e3a5f]'
       }`}
     >
       <div className="relative z-10 flex flex-col md:flex-row items-center gap-30 py-25 md:py-3 max-w-5xl w-full md:max-w-6xl">
@@ -31,14 +31,14 @@ const About = () => {
         {/* About Content - Right */}
         <div className="flex-1 px-4">
           <h2 className={`text-3xl font-bold mb-4 w-fit border-b-2 ${
-            isDark ? 'border-neutral-500' : 'border-gray-400'
+            isDark ? 'border-blue-700' : 'border-blue-400'
           }`}>
             About <span className="text-outline">Me</span>
           </h2>
           <p className={`mb-8 text-sm text-justify ${
-            isDark ? 'text-neutral-300' : 'text-gray-600'
+            isDark ? 'text-blue-100/80' : 'text-blue-900/70'
           }`}>
-            I’m Dharmendra Kumar Ram, a passionate Full-Stack Developer from Nepal
+            I'm Harihar Bidari, a passionate Full-Stack Developer from Nepal
   with hands-on experience in designing, developing, and deploying modern
   web applications. Over the years, I have worked on government systems,
   healthcare platforms, recruitment portals, startup ecosystems,
@@ -48,18 +48,9 @@ const About = () => {
           </p>
 
           <p className={`mb-8 text-normal text-justify ${
-            isDark ? 'text-neutral-300' : 'text-gray-600'
+            isDark ? 'text-blue-100/80' : 'text-blue-900/70'
           }`}>
-             Currently working as a Full-Stack Developer at National Incubation &
-  Research Center (NIRC), I contribute to the development of large-scale
-  applications using React.js, TypeScript, JavaScript, Python Django,
-  Java Grails, MySQL, PostgreSQL, and Tailwind CSS. I have successfully
-  delivered projects such as Hospital Management System (HMS),
-  Government With People (GWP), Rakmina Recruitment Portal, Provincial
-  Research and Training Institute Platform, StartupGhar, KIEC, and
-  several business websites. I am continuously learning new technologies
-  and enjoy solving complex technical challenges while maintaining clean,
-  scalable, and efficient code.
+            Currently serving as Wada Secretary at Chandragiri Municipality Ward 15 under the Government of Nepal, I also bring strong technical expertise as a Full-Stack Developer. I have successfully delivered projects such as Hospital Management System (HMS), Government With People (GWP), Rakmina Recruitment Portal, Provincial Research and Training Institute Platform, StartupGhar, KIEC, and several business websites. I am continuously learning new technologies and enjoy solving complex technical challenges while maintaining clean, scalable, and efficient code.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
             <div className="text-center">

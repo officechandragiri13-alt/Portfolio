@@ -14,12 +14,12 @@ const Experience = () => {
       className="py-5 relative border-t-1 border-[#555555]"
     >
       <h2 className={`text-3xl font-bold text-center ${
-        isDark ? 'text-neutral-300' : 'text-gray-700'
+        isDark ? 'text-blue-100' : 'text-blue-900'
       }`}>
         My <span className="text-outline">Experience</span> & Education
       </h2>
       <p className={`text-center max-w-xl mx-auto mb-5 ${
-        isDark ? 'text-neutral-400' : 'text-gray-600'
+        isDark ? 'text-blue-200/60' : 'text-blue-800/70'
       }`}>
         An overview of my professional experience and educational background.
       </p>
@@ -45,22 +45,22 @@ const Experience = () => {
 
                 <div
                   className={`w-full md:w-[45%] p-6 rounded-xl shadow-lg border hover:scale-105 transition-transform duration-300 ${
-                    isDark ? 'border-white/20' : 'border-gray-900/20'
+                    isDark ? 'border-blue-500/30 bg-[#0f2340]' : 'border-blue-300 bg-blue-50'
                   } ${
                     isLeft ? "md:text-right md:mr-12" : "md:ml-12"
                   } text-left`}
                 >
                   <h3 className={`text-xl font-semibold ${
-                    isDark ? 'text-neutral-100' : 'text-gray-900'
+                    isDark ? 'text-blue-100' : 'text-blue-900'
                   }`}>
                     {exp.title}
                   </h3>
                   <p className="text-teal-500 font-medium">{exp.company}</p>
                   <span className={`text-sm ${
-                    isDark ? 'text-white/50' : 'text-gray-600'
+                    isDark ? 'text-blue-300/60' : 'text-blue-700/70'
                   }`}>{exp.period}</span>
                   <p className={`text-justify text-sm mb-4 ${
-                    isDark ? 'text-neutral-400' : 'text-gray-600'
+                    isDark ? 'text-blue-100/60' : 'text-blue-900/70'
                   }`}>
                     {exp.description}
                   </p>
@@ -68,8 +68,8 @@ const Experience = () => {
                     {exp.skills.map((skill, index) => (
                       <span className={`px-3 py-1 border rounded-md text-sm text-light ${
                         isDark 
-                          ? 'border-[#555] text-white/70' 
-                          : 'border-gray-400 text-gray-700'
+                          ? 'border-blue-500/40 text-blue-200/80' 
+                          : 'border-blue-400 text-blue-800'
                       }`} key={index}>{skill}</span>
                     ))}
                   </div>

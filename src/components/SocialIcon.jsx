@@ -20,7 +20,7 @@ const SocialIcon = () => {
     >
       <ul className="w-full flex justify-around flex-col gap-2 items-center text-white">
         <a
-          href="https://www.linkedin.com/in/dharmendraram/"
+          href="https://www.linkedin.com/in/harihar-bidari-25a661132"
           target="_blank"
           className="p-2 border border-[#0A63BC] text-[#298bec] backdrop-blur-md rounded-full hover:bg-teal-500 transition-colors  cursor-pointer hover:text-white"
         >
@@ -29,7 +29,7 @@ const SocialIcon = () => {
         </a>
 
         <a
-          href="https://wa.me/9779819745073"
+          href="https://wa.me/9779843220252"
           target="_blank"
           className="p-2 border border-[#46C254] text-[#46C254] backdrop-blur-md rounded-full hover:bg-teal-500 transition-colors  cursor-pointer hover:text-white"
         >
@@ -38,7 +38,7 @@ const SocialIcon = () => {
         </a>
 
         <a
-          href="viber://chat?number=+9779819745073"
+          href="viber://chat?number=+9779843220252"
           target="_blank"
           className="p-2 border border-[#7360F2] text-[#7360F2] backdrop-blur-md rounded-full hover:bg-[#7360F2] transition-colors cursor-pointer hover:text-white"
         >
@@ -46,7 +46,7 @@ const SocialIcon = () => {
         </a>
         
         <a
-                href="https://github.com/dharmendraram"
+                href="https://github.com/officechandragiri13-alt"
                 target="_blank"
                 className="p-2 border border-gray-600 text-[#298bec]  backdrop-blur-md rounded-full hover:bg-teal-500 transition-colors  cursor-pointer hover:text-white"
               >

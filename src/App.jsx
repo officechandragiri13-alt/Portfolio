@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import HeadingHero from "./utils/HeadingHero";
 import GridLine from "./utils/GridLine";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -9,8 +8,7 @@ import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import logo from "./assets/logowhite.png";
-import logoDark from "./assets/logodark.png";
+import Logo from "./components/Logo";
 import SocialIcon from "./components/SocialIcon";
 import { ThemeProvider, useTheme } from "./context/ThemeContext";
 import ThemeToggle from "./components/ThemeToggle";
@@ -20,10 +18,10 @@ const AppContent = () => {
   
   return (
     <div className={`min-h-screen transition-colors duration-300 ${
-      isDark ? 'bg-[#202020] text-white' : 'bg-white text-gray-900'
+      isDark ? 'bg-[#0d1b2e] text-[#e2eaf4]' : 'bg-[#dbeafe] text-[#1e3a5f]'
     }`}>
       <div className="container mx-auto px-6 py-4 flex justify-center md:justify-start">
-        <img src={isDark ? logo : logoDark} alt="" className="h-15" />
+        <Logo />
       </div>
       <ThemeToggle />
       <Navbar />

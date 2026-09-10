@@ -46,7 +46,7 @@ import {
   FaViber,
 } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
-import user from "../assets/hero/pic3.png";
+import user from "../assets/hero/Harihar.jpg";
 import { downloadCV } from "../utils/generateCV";
 
 const Home = () => {
@@ -65,7 +65,7 @@ const Home = () => {
             Hello, my name is
           </h3>
           <h1 className="text-4xl md:text-5xl font-bold mt-2 capitalize">
-            Dharmendra Kumar Ram
+            Harihar Bidari
           </h1>
           <HeadingHero />
   {/*        <p className={`mt-4 max-w-3xl text-justify transition-colors duration-300 ${*/}
@@ -92,10 +92,10 @@ const Home = () => {
 
              <button
               onClick={downloadCV}
-              className={`px-6 py-2 rounded-full hover:opacity-90 transition-all duration-300 cursor-pointer hover:bg-teal-700 ${
+              className={`px-6 py-2 rounded-full hover:opacity-90 transition-all duration-300 cursor-pointer hover:bg-blue-700 ${
                 isDark 
-                  ? 'bg-white/10 text-white' 
-                  : 'bg-gray-900/10 text-gray-900'
+                  ? 'bg-blue-900/30 text-blue-100' 
+                  : 'bg-blue-200/60 text-blue-900'
               }`}
             >
               {" "}

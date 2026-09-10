@@ -10,13 +10,13 @@ const Skills = () => {
     <section id="skills" className="py-5 relative">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className={`text-3xl font-bold text-center mb-1 ${
-          isDark ? 'text-neutral-300' : 'text-gray-700'
+          isDark ? 'text-blue-100' : 'text-blue-900'
         }`}>
           {" "}
           <span className="text-outline">Skills</span>
         </h2>
         <p className={`text-center max-w-xl mx-auto mb-5 ${
-          isDark ? 'text-neutral-400' : 'text-gray-600'
+          isDark ? 'text-blue-200/60' : 'text-blue-800/70'
         }`}>
           The tools and technologies I use to bring idreas to life.
         </p>
@@ -33,7 +33,7 @@ const Skills = () => {
               }}
               transition={{ type: "spring", stiffness: 200, damping: 15 }}
               className={`backdrop-blur-lg rounded-lg p-6 shadow-lg border ${
-                isDark ? 'border-white/20' : 'border-gray-900/20'
+                isDark ? 'border-blue-500/30 bg-[#0f2340]' : 'border-blue-300 bg-blue-50'
               }`}
             >
               <h3 className=" text-3xl font-semibold mb-4 text-teal-400">
@@ -54,11 +54,11 @@ const Skills = () => {
                   >
                     <div className={`flex items-center z-20 relative gap-2 py-2 px-3 backdrop-blur-md rounded-lg cursor-pointer text-sm ${
                       isDark 
-                        ? 'text-white/50 bg-black/20' 
-                        : 'text-gray-700 bg-white/20'
+                        ? 'text-blue-100/70 bg-blue-900/30' 
+                        : 'text-blue-800 bg-blue-100/60'
                     }`}>
                       <span className="text-2xl">{item.icon}</span>
-                      <span className={isDark ? 'text-neutral-300' : 'text-gray-700'}>{item.name}</span>
+                      <span className={isDark ? 'text-blue-100' : 'text-blue-900'}>{item.name}</span>
                     </div>
                   </motion.div>
                 ))}

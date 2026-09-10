@@ -38,7 +38,6 @@ import { FaHome } from "react-icons/fa";
 import { LuCircleUser, LuContact } from "react-icons/lu";
 import { IoBagHandleOutline } from "react-icons/io5";
 
-import nirc from "../assets/nirc.png";
 import tu from "../assets/tu.png";
 import rakmina from "../assets/portfolio/rakmina.png";
 import imgportfolio from "../assets/portfolio/personal.png";
@@ -155,7 +154,7 @@ export const testimonials = [
 // Portfolio data
 export const portfolioItems = [
   {
-    title: "National Incubation and Research Center (NIRC) Website",
+    title: "Project 1",
     category: "Full Stack Developer",
     company: "Company",
     username: "",
@@ -169,7 +168,7 @@ export const portfolioItems = [
   },
 
   {
-    title: "Hospital Management System (HMS)",
+    title: "Project 2",
     category: "Core Designer & Lead Developer",
     company: "Company",
     username: "demo_user",
@@ -182,7 +181,7 @@ export const portfolioItems = [
       "A comprehensive digital platform designed to streamline hospital operations, including patient registration, medical record management, and administrative workflows. Developed by Me & NIRC Team to enhance healthcare service efficiency.",
   },
   {
-    title: "Government With People (GWP)",
+    title: "Project 3",
     category: "Core Front-End Developer",
     company: "Company",
     username: "p.demo",
@@ -195,7 +194,7 @@ export const portfolioItems = [
       "A comprehensive digital platform designed for local municipalities to provide citizens with easy access to information, online services, and community updates. The website enhances transparency, efficiency, and engagement between the Palika and its residents. Developed by Me & NIRC Team.",
   },
   {
-    title: "प्रदेश अनुसन्धान तथा प्रशिक्षण प्रतिष्ठान",
+    title: "Project 4",
     category: "Front-End Developer",
     company: "Company",
     username: "",
@@ -213,7 +212,7 @@ export const portfolioItems = [
       "An official digital platform developed for the Government of Nepal’s Provincial Research and Training Institute to deliver training programs, research resources, and institutional information. The system improves accessibility, transparency, and digital learning for government officials and trainees. Developed collaboratively with the NIRC team.",
   },
   {
-    title: "Rakmina Recruitment & Migration Platform",
+    title: "Project 5",
     category: "Lead Front-End Developer",
     company: "Company",
     username: "",
@@ -227,7 +226,7 @@ export const portfolioItems = [
   },
   {
     title:
-      "BrandWave — Digital Agency in Biratnagar | Web, Marketing & Event Services",
+      "Project 6",
     category: "Full Stack Developer",
     company: "Personal",
     username: "",
@@ -240,7 +239,7 @@ export const portfolioItems = [
       "BrandWave is a premier digital agency in Biratnagar, Nepal, offering website development, digital marketing, meta ads, branding, and event shooting services to elevate your brand.",
   },
   {
-    title: "Portfolio Website",
+    title: "Project 7",
     category: "Full Stack Developer",
     company: "Personal",
     username: "",
@@ -253,7 +252,7 @@ export const portfolioItems = [
       "A personal portfolio website, showcasing my interests, knowledge, experiences, skills and projects that I have done.In this digital era it has been mandatory to have digital exiatence. It becomes even more neccessary for the people in IT field. Personal portfolio website the resume of this digital world.",
   },
   {
-    title: "KIEC – Study Abroad & Immigration Services | Your Global Gateway",
+    title: "Project 8",
     category: "Full Stack Developer",
     company: "Personal",
     username: "",
@@ -266,7 +265,7 @@ export const portfolioItems = [
       "KIEC guides students and professionals in achieving global education and migration goals — from university selection to visa support and pre-departure readiness.",
   },
   {
-    title: "Aarambha Foundation",
+    title: "Project 9",
     category: "Front-End Developer",
     company: "Personal",
     username: "",
@@ -279,7 +278,7 @@ export const portfolioItems = [
       "A purpose-driven digital platform focused on promoting quality education, better health, and a safe, nurturing environment for children across the nation. The platform supports initiatives that amplify children’s voices, protect their rights, and create equal opportunities for learning, growth, and well-being.",
   },
   {
-    title: "StartupGhar",
+    title: "Project 10",
     category: "Full Stack Developer",
     company: "Personal",
     username: "",
@@ -296,7 +295,6 @@ export const experiences = [
   {
     id: 1,
     company: "Government Of Nepal, Chandragiri Municipality Ward 15",
-    logo: nirc,
     title: "Wada Secretary",
     period: "Jul 2025 - Present",
     description:
@@ -311,8 +309,7 @@ export const experiences = [
   },
   {
     id: 2,
-    company: "National Incubation & Research Center",
-    logo: nirc,
+    company: "Company",
     title: "Front-End Developer",
     period: "Oct 2023 - Jul 2024", //
     description:

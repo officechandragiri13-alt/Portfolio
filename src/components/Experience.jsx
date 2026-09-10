@@ -37,11 +37,13 @@ const Experience = () => {
                   isLeft ? " md:justify-start " : "md:justify-end"
                 } justify-center`}
               >
-                <div className="absolute left-1/2 md:flex hidden -translate-x-1/2 z-10">
-                  <div className="w-15 h-15 rounded-full shadow-lg flex justify-center items-center bg-neutral-600">
-                    <img src={exp.logo} alt="logo"  className="w-full h-fit"/>
+                {exp.logo && (
+                  <div className="absolute left-1/2 md:flex hidden -translate-x-1/2 z-10">
+                    <div className="w-15 h-15 rounded-full shadow-lg flex justify-center items-center bg-neutral-600">
+                      <img src={exp.logo} alt="logo" className="w-full h-fit" />
+                    </div>
                   </div>
-                </div>
+                )}
 
                 <div
                   className={`w-full md:w-[45%] p-6 rounded-xl shadow-lg border hover:scale-105 transition-transform duration-300 ${

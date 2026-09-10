@@ -5,9 +5,9 @@ const HeadingHero = () => {
     const { isDark } = useTheme();
     const roles=[
         { title: "Full-Stack Developer" },
-        { title: "React.js" },
-        { title: "Django" },  
-        { title: "Java Grails" },
+        { title: "React.js Developer" },
+        { title: "Django Developer" },  
+        { title: "Java Grails Developer" },
         
     ]
     const [currentRoleIndex, setCurrentRoleIndex] = useState(0);

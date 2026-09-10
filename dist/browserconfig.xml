@@ -2,12 +2,12 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square70x70logo src="/logowhite.png" />
-      <square150x150logo src="/logowhite.png" />
-      <wide310x150logo src="/logowhite.png" />
-      <square310x310logo src="/logowhite.png" />
+      <square70x70logo src="/harihar-favicon-v2.png" />
+      <square150x150logo src="/harihar-favicon-v2.png" />
+      <wide310x150logo src="/harihar-favicon-v2.png" />
+      <square310x310logo src="/harihar-favicon-v2.png" />
       <TileColor>#14b8a6</TileColor>
-      <TileImage src="/logowhite.png" />
+      <TileImage src="/harihar-favicon-v2.png" />
     </tile>
     <notification>
       <polling-uri src="https://bidariharihar.com.np/" />
